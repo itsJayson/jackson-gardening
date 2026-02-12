@@ -4,7 +4,7 @@ const IMAGES = {
   hero: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1920&q=80',
 
   // About
-  about: '../../public/main.jpg',
+  about: '/main.jpg',
 
   // Services cards
   services: {
@@ -17,8 +17,8 @@ const IMAGES = {
   },
 
   // Residential & Commercial
-  residential: '../../public/residential.jpg',
-  commercial: '../../public/commercial.jpg',
+  residential: '/residential.jpg',
+  commercial: '/commercial.jpg',
 
   // Gallery
   gallery: [
