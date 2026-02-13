@@ -4,39 +4,39 @@ const IMAGES = {
   hero: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1920&q=80',
 
   // About
-  about: '../../public/main.jpg',
+  about: '/main.jpg',
 
   // Services cards
   services: {
-    lawn: '../../public/lawnmowing.jpg',
-    hedge: '../../public/ghedge.jpg',
-    clearance: '../../public/cleanup.jpg',
-    pressure: '../../public/pressure.jpg',
+    lawn: '/lawnmowing.jpg',
+    hedge: '/ghedge.jpg',
+    clearance: '/cleanup.jpg',
+    pressure: '/pressure.jpg',
   },
 
   // Residential & Commercial
-  residential: '../../public/residential.jpg',
-  commercial: '../../public/commercial.jpg',
+  residential: '/residential.jpg',
+  commercial: '/commercial.jpg',
 
   // Gallery
   gallery: [
-    { src: '../../public/transform.jpg', label: 'Lawn Transformation', category: 'Lawns' },
-    { src: '../../public/hedgeshaping.jpg', label: 'Hedge Shaping', category: 'Hedges' },
-    { src: '../../public/gardenclearance.jpg', label: 'Garden Clearance', category: 'Clearance' },
-    { src: '../../public/patiojet.jpg', label: 'Patio Jet Wash', category: 'Jet Washing' },
-    { src: '../../public/fullgarden.jpg', label: 'Residential Garden', category: 'Lawns' },
+    { src: '/transform.jpg', label: 'Lawn Transformation', category: 'Lawns' },
+    { src: '/hedgeshaping.jpg', label: 'Hedge Shaping', category: 'Hedges' },
+    { src: '/gardenclearance.jpg', label: 'Garden Clearance', category: 'Clearance' },
+    { src: '/patiojet.jpg', label: 'Patio Jet Wash', category: 'Jet Washing' },
+    { src: '/fullgarden.jpg', label: 'Residential Garden', category: 'Lawns' },
   ],
 
   // Before & After showcase (replace with your own images)
   beforeAfter: [
     {
-      before: '../../public/gardenbefore.jpg',
-      after: '../../public/gardenafter.jpg',
+      before: '/gardenbefore.jpg',
+      after: '/gardenafter.jpg',
       label: 'Garden Clearance',
     },
     {
-      before: '../../public/jetbefore.jpg',
-      after: '../../public/jetafter.jpg',
+      before: '/jetbefore.jpg',
+      after: '/jetafter.jpg',
       label: 'Jet Washing',
     },
   ],
