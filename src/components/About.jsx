@@ -8,7 +8,7 @@ export default function About() {
           <div className="about__image">
             <img
               src={IMAGES.about}
-              alt="Professional gardener at work"
+              alt="Gardener Van in bright sunlight"
               className="about__img"
             />
           </div>

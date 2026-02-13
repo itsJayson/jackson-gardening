@@ -2,19 +2,20 @@ import IMAGES from '../constants/images'
 
 const reviews = [
   {
-    name: 'Sarah M.',
-    location: 'Stafford',
-    text: "Absolutely fantastic service! Jackson transformed our overgrown garden into a beautiful space. Punctual, professional, and great value. Highly recommend!",
+    name: 'Deborah J.',
+    text: "Garden Tidy: Overgrown Grass, Shrub & Branch Trim and Leaf Clearance. Efficient, Courteous and Friendly Service. Great Communication about the job spec. and with arrival times and possible changes due to inclement weather. Will be booking again for maintenance and would highly recommend them.",
   },
   {
-    name: 'David T.',
-    location: 'Crewe',
-    text: "We use Jackson's Gardening for our office grounds maintenance. Always reliable, always immaculate. The team is friendly and nothing is ever too much trouble.",
+    name: 'Helen T.',
+    text: "Excellent job today. My lawn had not been cut this year at all, job was no trouble. I was quoted for job a couple of weeks ago. Communication has been great on WhatsApp. Work carried out by lovely guy today. We will give lawn a rest for a couple of weeks then arrange regular maintenance and hedges once birds have fledged. I highly recommend.",
   },
   {
-    name: 'Emma L.',
-    location: 'Stoke-on-Trent',
-    text: 'Had our patio and driveway pressure washed - what a difference! Looks brand new. Jackson was prompt, tidy, and very reasonably priced. Will definitely be using again.',
+    name: 'Alexis J.',
+    text: "Zack has given our garden a complete makeover! Started with a clearance, and it needed it and now carries out 2 weekly maintenance cuts that has made a complete difference to being able to enjoy the garden. He's also replaced a number of fence posts and panels to make our garden secure again. Him and his team are such nice guys and take pride in their work. Thanks Zack!",
+  },
+  {
+    name: 'Alexandra J.',
+    text: "Zack and Joe were amazing! They managed to squeeze us in last minute and did an excellent job. My grass looks perfect. Highly recommend Jackson's!",
   },
 ]
 
@@ -51,7 +52,6 @@ export default function Testimonials() {
                 </div>
                 <div>
                   <strong>{review.name}</strong>
-                  <span className="testimonial-card__location">{review.location}</span>
                 </div>
               </div>
             </div>

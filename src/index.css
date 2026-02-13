@@ -42,9 +42,12 @@
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+html, body {
+  scroll-behavior: smooth !important;
   scroll-padding-top: 80px;
+}
+
+html {
   overflow-x: hidden;
 }
 

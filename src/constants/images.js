@@ -1,7 +1,7 @@
 // Centralized Unsplash image URLs for the entire site
 const IMAGES = {
   // Hero
-  hero: 'https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1920&q=80',
+  hero: '/hero.jpg',
 
   // About
   about: '/main.jpg',
@@ -11,20 +11,20 @@ const IMAGES = {
     lawn: '/lawnmowing.jpg',
     hedge: '/ghedge.jpg',
     clearance: '/cleanup.jpg',
-    pressure: '/pressure.jpg',
+    pressure: '/pressuree.jpg',
   },
 
   // Residential & Commercial
-  residential: '/residential.jpg',
-  commercial: '/commercial.jpg',
+  residential: '/residentialnew.jpg',
+  commercial: '/commss.png',
 
   // Gallery
   gallery: [
-    { src: '/transform.jpg', label: 'Lawn Transformation', category: 'Lawns' },
-    { src: '/hedgeshaping.jpg', label: 'Hedge Shaping', category: 'Hedges' },
-    { src: '/gardenclearance.jpg', label: 'Garden Clearance', category: 'Clearance' },
-    { src: '/patiojet.jpg', label: 'Patio Jet Wash', category: 'Jet Washing' },
-    { src: '/fullgarden.jpg', label: 'Residential Garden', category: 'Lawns' },
+    { src: '/transform.jpg', label: 'Lawn Transformation', alt: 'Freshly mown green lawn with neat edges and trimmed borders in a residential garden' },
+    { src: '/hedgeshaping.jpg', label: 'Hedge Shaping', alt: 'Neatly shaped garden hedge with clean straight lines along a garden boundary' },
+    { src: '/gardenclearance.jpg', label: 'Garden Clearance', alt: 'Cleared garden space with removed overgrowth and tidy borders ready for planting' },
+    { src: '/patiojet.jpg', label: 'Patio Jet Wash', alt: 'Clean patio slabs restored to original colour after professional jet washing' },
+    { src: '/fullgarden.jpg', label: 'Residential Garden', alt: 'Well-maintained residential garden with a gardener getting the work done.' },
   ],
 
   // Before & After showcase (replace with your own images)

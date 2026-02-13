@@ -28,11 +28,6 @@ export default function ServiceAreas() {
             </div>
           ))}
         </div>
-        <div className="areas__cta">
-          <a href="tel:+447505990485" className="btn btn--outline">
-            Call to Check Your Area
-          </a>
-        </div>
       </div>
     </section>
   )

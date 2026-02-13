@@ -19,12 +19,22 @@ export default function Header() {
     { label: 'Contact', href: '#contact' },
   ]
 
+  const smoothScroll = (e, href) => {
+    e.preventDefault()
+    setMenuOpen(false)
+    const el = document.querySelector(href)
+    if (el) {
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 80
+      window.scrollTo({ top, behavior: 'smooth' })
+    }
+  }
+
   return (
     <header className={`header${scrolled ? ' header--scrolled' : ''}`}>
       <div className="header__inner">
-        <a href="#hero" className="header__logo">
+        <a href="#hero" onClick={(e) => smoothScroll(e, '#hero')} className="header__logo">
           <span className="header__logo-text">
-            Jackson's<span className="header__logo-accent"> Gardening</span>
+            Jackson's<span className="header__logo-accent"> Gardening Services</span>
           </span>
         </a>
 
@@ -34,7 +44,7 @@ export default function Header() {
               key={link.href}
               href={link.href}
               className="header__link"
-              onClick={() => setMenuOpen(false)}
+              onClick={(e) => smoothScroll(e, link.href)}
             >
               {link.label}
             </a>

@@ -8,7 +8,7 @@ export default function Commercial() {
           <div className="split-section__image">
             <img
               src={IMAGES.commercial}
-              alt="Commercial grounds maintenance"
+              alt="Well-kept commercial grounds with clean lawns and tidy hedgerows outside an gym building"
               className="split-section__img"
             />
           </div>
@@ -26,9 +26,6 @@ export default function Commercial() {
               <li>Hedge cutting and garden clearance</li>
               <li>Fully insured and reliable service</li>
             </ul>
-            <a href="tel:+447505990485" className="btn btn--primary">
-              Discuss Your Requirements
-            </a>
           </div>
         </div>
       </div>
