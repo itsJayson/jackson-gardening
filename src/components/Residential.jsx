@@ -20,11 +20,10 @@ export default function Residential() {
             </p>
             <ul className="split-section__list">
               <li>Regular lawn mowing and treatment programmes</li>
-              <li>Seasonal planting and flower bed maintenance</li>
-              <li>Hedge trimming and border upkeep</li>
+              <li>Hedge trimming and cutting</li>
               <li>Garden clearance and waste removal</li>
-              <li>Patio and driveway pressure washing</li>
-              <li>One-off garden makeovers</li>
+              <li>Patio and driveway jet washing</li>
+              <li>One-off garden tidyups</li>
             </ul>
             <a href="tel:+447505990485" className="btn btn--primary">
               Get Your Free Quote

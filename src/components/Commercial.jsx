@@ -21,9 +21,9 @@ export default function Commercial() {
             <ul className="split-section__list">
               <li>Regular scheduled grounds maintenance</li>
               <li>Flexible contracts to suit your business</li>
-              <li>Car park and path maintenance</li>
+              <li>Car park and path jet washing</li>
               <li>Communal area and entrance upkeep</li>
-              <li>Seasonal displays and planting</li>
+              <li>Hedge cutting and garden clearance</li>
               <li>Fully insured and reliable service</li>
             </ul>
             <a href="tel:+447505990485" className="btn btn--primary">

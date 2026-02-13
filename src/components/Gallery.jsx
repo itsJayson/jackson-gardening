@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import IMAGES from '../constants/images'
 
-const categories = ['All', 'Lawns', 'Hedges', 'Planting', 'Landscaping', 'Clearance', 'Pressure Washing']
+const categories = ['All', 'Lawns', 'Hedges', 'Clearance', 'Jet Washing']
 
 export default function Gallery() {
   const [activeFilter, setActiveFilter] = useState('All')

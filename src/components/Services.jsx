@@ -7,8 +7,8 @@ const services = [
     desc: 'Regular mowing, edging, feeding, and lawn treatments to keep your grass lush and healthy all year round.',
   },
   {
-    image: IMAGES.services.pressure,
-    title: 'Hedge Trimming & Topiary',
+    image: IMAGES.services.hedge,
+    title: 'Hedge Trimming & Cutting',
     desc: 'Expert hedge cutting and shaping to maintain neat borders and stunning topiary features.',
   },
   {
@@ -17,19 +17,9 @@ const services = [
     desc: 'Complete garden waste removal, overgrown area clearing, and thorough seasonal cleanups.',
   },
   {
-    image: IMAGES.services.planting,
-    title: 'Seasonal Planting',
-    desc: 'Thoughtful planting designs using seasonal flowers, shrubs, and plants for year-round colour.',
-  },
-  {
-    image: IMAGES.services.lawn,
-    title: 'Landscaping Services',
-    desc: 'Full landscaping solutions including patios, pathways, turf laying, and complete garden redesigns.',
-  },
-  {
     image: IMAGES.services.pressure,
-    title: 'Pressure Washing',
-    desc: 'Professional pressure washing for patios, driveways, decking, and exterior surfaces to restore their original look.',
+    title: 'Jet Washing',
+    desc: 'Professional jet washing for patios, driveways, decking, and exterior surfaces to restore their original look.',
   },
 ]
 
@@ -39,8 +29,8 @@ export default function Services() {
       <div className="container">
         <h2 className="section-title section-title--center">Our Services</h2>
         <p className="section-subtitle">
-          From routine lawn care to full garden transformations, we offer a comprehensive
-          range of professional gardening services.
+          From routine lawn care to garden clearances, we offer a comprehensive
+          range of professional gardening and cleaning services.
         </p>
         <div className="services__grid">
           {services.map((service) => (

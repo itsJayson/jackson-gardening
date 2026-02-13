@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { NavLink, Link } from 'react-router-dom'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -12,35 +11,33 @@ export default function Header() {
   }, [])
 
   const navLinks = [
-    { label: 'Home', to: '/' },
-    { label: 'Services', to: '/services' },
-    { label: 'Gallery', to: '/gallery' },
-    { label: 'Areas', to: '/areas' },
-    { label: 'Contact', to: '/contact' },
+    { label: 'Home', href: '#hero' },
+    { label: 'About', href: '#about' },
+    { label: 'Services', href: '#services' },
+    { label: 'Gallery', href: '#gallery' },
+    { label: 'Areas', href: '#areas' },
+    { label: 'Contact', href: '#contact' },
   ]
 
   return (
     <header className={`header${scrolled ? ' header--scrolled' : ''}`}>
       <div className="header__inner">
-        <Link to="/" className="header__logo">
+        <a href="#hero" className="header__logo">
           <span className="header__logo-text">
             Jackson's<span className="header__logo-accent"> Gardening</span>
           </span>
-        </Link>
+        </a>
 
         <nav className={`header__nav${menuOpen ? ' header__nav--open' : ''}`}>
           {navLinks.map((link) => (
-            <NavLink
-              key={link.to}
-              to={link.to}
-              className={({ isActive }) =>
-                `header__link${isActive ? ' header__link--active' : ''}`
-              }
+            <a
+              key={link.href}
+              href={link.href}
+              className="header__link"
               onClick={() => setMenuOpen(false)}
-              end={link.to === '/'}
             >
               {link.label}
-            </NavLink>
+            </a>
           ))}
         </nav>
 

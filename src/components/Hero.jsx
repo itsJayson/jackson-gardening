@@ -3,12 +3,13 @@ import IMAGES from '../constants/images'
 export default function Hero() {
   return (
     <section
+      id="hero"
       className="hero"
       style={{ backgroundImage: `url(${IMAGES.hero})` }}
     >
       <div className="hero__overlay" />
       <div className="hero__content">
-        <div className="hero__badge">&#11088; 5-Star Rated Service</div>
+        <div className="hero__badge">5-Star Rated Service</div>
         <h1 className="hero__title">
           Professional Gardening<br />Services You Can Trust
         </h1>

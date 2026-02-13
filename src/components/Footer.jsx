@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-
 export default function Footer() {
   return (
     <footer className="footer">
@@ -7,7 +5,7 @@ export default function Footer() {
         <div className="footer__grid">
           <div className="footer__brand">
             <h3 className="footer__logo">
-              <span>&#127793;</span> Jackson's Gardening Services
+              Jackson's Gardening Services
             </h3>
             <p>
               Professional gardening services across Staffordshire, Cheshire and surrounding
@@ -18,11 +16,11 @@ export default function Footer() {
           <div className="footer__links">
             <h4>Quick Links</h4>
             <nav>
-              <Link to="/">Home</Link>
-              <Link to="/services">Services</Link>
-              <Link to="/gallery">Gallery</Link>
-              <Link to="/areas">Areas</Link>
-              <Link to="/contact">Contact</Link>
+              <a href="#hero">Home</a>
+              <a href="#services">Services</a>
+              <a href="#gallery">Gallery</a>
+              <a href="#areas">Areas</a>
+              <a href="#contact">Contact</a>
             </nav>
           </div>
 
