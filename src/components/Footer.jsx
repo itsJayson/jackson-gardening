@@ -1,4 +1,13 @@
 export default function Footer() {
+  const smoothScroll = (e, href) => {
+    e.preventDefault()
+    const el = document.querySelector(href)
+    if (el) {
+      const top = el.getBoundingClientRect().top + window.pageYOffset - 80
+      window.scrollTo({ top, behavior: 'smooth' })
+    }
+  }
+
   return (
     <footer className="footer">
       <div className="container">
@@ -16,11 +25,11 @@ export default function Footer() {
           <div className="footer__links">
             <h4>Quick Links</h4>
             <nav>
-              <a href="#hero">Home</a>
-              <a href="#services">Services</a>
-              <a href="#gallery">Gallery</a>
-              <a href="#areas">Areas</a>
-              <a href="#contact">Contact</a>
+              <a href="#hero" onClick={(e) => smoothScroll(e, '#hero')}>Home</a>
+              <a href="#services" onClick={(e) => smoothScroll(e, '#services')}>Services</a>
+              <a href="#gallery" onClick={(e) => smoothScroll(e, '#gallery')}>Gallery</a>
+              <a href="#areas" onClick={(e) => smoothScroll(e, '#areas')}>Areas</a>
+              <a href="#contact" onClick={(e) => smoothScroll(e, '#contact')}>Contact</a>
             </nav>
           </div>
 

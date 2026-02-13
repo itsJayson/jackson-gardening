@@ -8,7 +8,7 @@ export default function Residential() {
           <div className="split-section__image">
             <img
               src={IMAGES.residential}
-              alt="Beautiful residential garden"
+              alt="Neatly maintained House garden with trimmed lawn, colourful flower beds."
               className="split-section__img"
             />
           </div>
@@ -25,9 +25,6 @@ export default function Residential() {
               <li>Patio and driveway jet washing</li>
               <li>One-off garden tidyups</li>
             </ul>
-            <a href="tel:+447505990485" className="btn btn--primary">
-              Get Your Free Quote
-            </a>
           </div>
         </div>
       </div>

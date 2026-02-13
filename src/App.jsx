@@ -7,12 +7,11 @@ import Commercial from './components/Commercial'
 import ServiceAreas from './components/ServiceAreas'
 import WhyChooseUs from './components/WhyChooseUs'
 import Gallery from './components/Gallery'
-import BeforeAfter from './components/BeforeAfter'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
 import CTABanner from './components/CTABanner'
 import Footer from './components/Footer'
-import WhatsAppButton from './components/WhatsAppButton'
+import PhoneButton from './components/WhatsAppButton'
 import './App.css'
 
 function App() {
@@ -28,13 +27,12 @@ function App() {
         <ServiceAreas />
         <WhyChooseUs />
         <Gallery />
-        <BeforeAfter />
         <Testimonials />
         <Contact />
         <CTABanner />
       </main>
       <Footer />
-      <WhatsAppButton />
+      <PhoneButton />
     </>
   )
 }
